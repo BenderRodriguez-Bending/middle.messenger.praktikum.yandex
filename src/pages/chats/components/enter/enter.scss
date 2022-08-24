@@ -1,0 +1,17 @@
+@import "src/layout/main/main";
+
+.block-enter{
+  display: flex;
+  padding: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid $color-grey;
+  width: 100%;
+
+  .block-textarea{
+    width: 100%;
+    margin-left: 1rem;
+  }
+
+}

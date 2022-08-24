@@ -1,0 +1,27 @@
+@import "src/layout/main/main";
+
+.block-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+  label{
+    position: absolute;
+  }
+  input{
+    border: none;
+    border-bottom: 1px solid $color-primary-1;
+    outline: none;
+    height: 1.5rem;
+    line-height: 1.35rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.7rem;
+    text-align: right;
+    &:disabled{
+      background-color: $color-white;
+      border-bottom: 1px solid $color-grey;
+    }
+  }
+}
