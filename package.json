@@ -2,11 +2,11 @@
   "name": "test",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
   "source": "src/index.js",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build --no-cache"
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",
