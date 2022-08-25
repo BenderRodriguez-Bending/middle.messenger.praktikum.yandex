@@ -6,7 +6,7 @@
   "source": "src/index.js",
   "scripts": {
     "dev": "parcel index.html --no-cache",
-    "build": "parcel index.html build --no-cache --public-url .",
+    "build": "parcel build index.html --no-cache --public-url .",
     "express": "node server.js"
   },
   "keywords": [],
