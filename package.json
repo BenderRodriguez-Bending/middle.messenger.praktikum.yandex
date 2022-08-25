@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "source": "src/index.js",
   "scripts": {
-    "dev": "parcel --no-cache",
-    "build": "parcel build --no-cache --public-url ."
+    "dev": "parcel index.html --no-cache",
+    "build": "parcel index.html build --no-cache --public-url ."
   },
   "keywords": [],
   "author": "",
