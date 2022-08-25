@@ -6,8 +6,7 @@
   "source": "src/index.js",
   "scripts": {
     "dev": "parcel --no-cache --open",
-    "build": "parcel build --no-cache --public-url .",
-    "express": "node server.js"
+    "build": "parcel build --no-cache --public-url . && node server.js"
   },
   "keywords": [],
   "author": "",
