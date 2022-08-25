@@ -3,25 +3,29 @@
 @import "src/pages/chats/components/enter/enter";
 @import "src/pages/chats/components/card/card";
 
-.block-chat{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 70%;
-    section.block-chat__correspondence{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100%;
-      width: 100%;
-      color: $color-grey;
+.block-chat {
+  display : flex;
+  flex-direction : row;
+  width : 100%;
+  height : 100%;
+  box-sizing : border-box;
+
+  div {
+    display : flex;
+    flex-direction : column;
+    justify-content : space-between;
+    width : 70%;
+
+    section.block-chat__correspondence {
+      display : flex;
+      flex-direction : column;
+      align-items : center;
+      justify-content : center;
+      height : 100%;
+      width : 100%;
+      color : $color-grey;
     }
+
   }
+
 }

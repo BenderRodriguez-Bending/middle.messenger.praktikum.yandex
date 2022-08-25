@@ -5,24 +5,25 @@
   "main": "dist/index.js",
   "source": "src/index.js",
   "scripts": {
-    "dev": "parcel --no-cache",
-    "build": "parcel build --no-cache --public-url ."
+    "dev": "parcel --no-cache --open",
+    "build": "parcel build --no-cache --public-url .",
+    "express": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.7.0",
-    "express": "^4.18.1",
-    "parcel": "^2.7.0",
-    "parcel-plugin-clean-easy": "^1.0.2"
+    "@parcel/transformer-sass": "2.7.0",
+    "express": "4.18.1",
+    "parcel": "2.7.0",
+    "parcel-plugin-clean-easy": "1.0.2"
   },
   "parcelCleanPaths": [
     "dist",
     ".cache"
   ],
   "engines": {
-    "npm": "^8.17.0",
-    "node": "^16.16.0"
+    "npm": "8.17.0",
+    "node": "16.16.0"
   }
 }
