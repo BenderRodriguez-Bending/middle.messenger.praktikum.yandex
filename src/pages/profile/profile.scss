@@ -1,0 +1,9 @@
+@import "src/layout/main/main";
+@import "src/pages/profile/components/avatar/avatar";
+@import "src/pages/profile/components/buttons/buttonsProfile";
+
+.block-profile {
+  margin-top : 1rem;
+  width : 100%;
+  max-width : 25rem;
+}
